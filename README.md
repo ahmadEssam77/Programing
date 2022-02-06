@@ -33,3 +33,27 @@ The algorithm is a solution for a computational problem. But to call it an algor
 ```
 The variable is a location in memory to store data.
 ```
+
+##### Algorithm types
+```
+- Pseudo code
+- Flowchart
+```
+
+##### Statement vs Expression
+```
+z = 5 + 7; is a statement
+5 + 7; only is an expression
+```
+
+> Algorithm + Data structure = Programing.
+
+##### Statements types
+```
+- Expressions statements  5 + 7;
+- Selection statements     if
+- Iteration statements     for
+- Declaration statements
+- Function calling         read();
+```
+
