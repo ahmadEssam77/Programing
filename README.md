@@ -65,7 +65,3 @@ while => when you don't know the iteration number.
 ```
 
 > [Github Basic Writing Format](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)
-
-- [ ] Test 1
-- [ ] Test 2
-- [ ] Test 3
