@@ -54,6 +54,18 @@ z = 5 + 7; is a statement
 - Selection statements     if
 - Iteration statements     for
 - Declaration statements
+- Boolean expressions      true || false
 - Function calling         read();
 ```
 
+##### For vs While loop
+```
+for => You know the iteration number.
+while => when you don't know the iteration number.
+```
+
+> [Github Basic Writing Format](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)
+
+- [ ] Test 1
+- [ ] Test 2
+- [ ] Test 3
