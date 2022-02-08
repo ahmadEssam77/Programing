@@ -55,6 +55,7 @@ z = 5 + 7; is a statement
 - Iteration statements     for
 - Declaration statements
 - Boolean expressions      true || false
+- Function statement       wrapping or blocking some statements
 - Function calling         read();
 ```
 
@@ -64,4 +65,9 @@ for => You know the iteration number.
 while => when you don't know the iteration number.
 ```
 
-> [Github Basic Writing Format](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)
+##### Two types of functions
+```
+1. built-in functions      (you know them by learning and checking the docs)
+2. user defined function   (your function)
+```
+
