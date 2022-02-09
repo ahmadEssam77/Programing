@@ -81,3 +81,31 @@ Directives are special attributes with the v- prefix. Directive attribute values
 <a v-bind:[attributeName]="url"></a>
 ```
 
+##### data() {}   function
+##### methods: {}  option
+
+# reactivity system
+
+##### computed property and watchers  (data changes)
+```
+computed also vs methods
+computed => It's a cached base on their reactive dependencies (means happens if there is a change)
+method => is just a function bound to the Vue instance. It will only be evaluated when you explicitly call it.
+```
+
+
+
+
+### Top 10
+```
+- Computed property
+- Event handling || listen for an event.
+- Lazy loading || Async components
+- Global components
+- Single file component
+- Testing
+- CLI Tool   (vue serve component path)  (vue build --target lib --name goldenRule component path) to share a specific component with someone
+- Props management
+- Server-side Rendering (SSR)
+- Deployment
+```
