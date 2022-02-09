@@ -33,3 +33,51 @@ Vue also provides accompanying tools for authoring SFC
 > const app = Vue.createApp(rootComponent);
 > app.mount("#html-element");
 ```
+
+##### Lifecycle Hooks Vue
+```
+Each component instance goes through a series of initialization steps when it's created - for example, it needs to set up data observation, compile the template, mount the instance to the DOM, and update the DOM when data changes. Along the way, it also runs functions called lifecycle hooks, giving users the opportunity to add their own code at specific stages.
+
+> don't use arrow function with these methods, should write them created() {} or mounted() {} updated() {} unmounted() {} and so on
+>in created() {console.log(this.counter)}  `this` refers to or points to the vm instance. ViewModel
+```
+
+##### Interpolation
+#### Text
+```
+{{ message }}  Mustache syntax
+v-once will change it one time only <span v-once> the message is {{ message }}</span>
+but keep in mind this will also affect any other bindings on the same node
+```
+#### Raw HTML
+```
+data() {
+  return {
+    rawHTML: `<span style="color: red">Test</span>`
+  }
+}
+
+<div id="app">
+  <span v-html="rawHTML"></span>
+</div>
+```
+#### Attributes
+```
+<button v-bind:disabled="Booleanvariable"></button>
+```
+#### Using JS Expression
+```
+{{ ok ? "yes" : "no" }}
+{{ message.split('').reverse().join('') }}
+```
+
+##### Directives
+Directives are special attributes with the v- prefix. Directive attribute values are expected to be a single JavaScript expression (with the exception of v-for and v-on, which will be discussed later). A directive's job is to reactively apply side effects to the DOM when the value of its expression changes.
+
+##### arguments vs dynamic arguments
+```
+<a v-bind:href="url"></a>  (there are some constraints)
+
+<a v-bind:[attributeName]="url"></a>
+```
+
