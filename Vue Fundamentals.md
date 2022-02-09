@@ -91,6 +91,8 @@ Directives are special attributes with the v- prefix. Directive attribute values
 computed also vs methods
 computed => It's a cached base on their reactive dependencies (means happens if there is a change)
 method => is just a function bound to the Vue instance. It will only be evaluated when you explicitly call it.
+
+watch => works with API and asynchronous
 ```
 
 
