@@ -94,7 +94,20 @@ method => is just a function bound to the Vue instance. It will only be evaluate
 
 watch => works with API and asynchronous
 ```
+##### > Class and style binding
+```
+- it depends on truthness value
+- can be object or array
+```
 
+##### Conditional Rendering
+```
+v-if || v-else-if || v-else
+v-show
+The difference is that an element with v-show will always be rendered and remain in the DOM;
+v-show doesn't support the <template> element, nor does it work with v-else.
+v-show if you need to toggle something very often, and prefer v-if if the condition is unlikely to change at runtime.
+```
 
 
 
