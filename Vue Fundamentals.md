@@ -109,6 +109,10 @@ v-show doesn't support the <template> element, nor does it work with v-else.
 v-show if you need to toggle something very often, and prefer v-if if the condition is unlikely to change at runtime.
 ```
 
+##### list rendering
+```
+v-for directive
+```
 
 
 ### Top 10
