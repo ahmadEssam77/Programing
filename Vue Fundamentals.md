@@ -112,6 +112,14 @@ v-show if you need to toggle something very often, and prefer v-if if the condit
 ##### list rendering
 ```
 v-for directive
+for reversing matter while dealing with arrays or do some operations, the best approache to make it in computed: { return ..}
+also you have to make a clone or a copy from the original array so we use spread operator return [...numbersArray].reverse() instead of numbersArray.reverse()
+```
+
+##### Event handler
+```
+- inline handlers and methods handlers
+- event modifiers
 ```
 
 
