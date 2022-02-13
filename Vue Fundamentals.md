@@ -121,11 +121,14 @@ also you have to make a clone or a copy from the original array so we use spread
 - inline handlers and methods handlers
 - event modifiers
 ```
-
+##### Form input binding
+```
+v-model with almost all input types
+```
 
 ### Top 10
 ```
-- Computed property
+- Computed property (done)
 - Event handling || listen for an event.
 - Lazy loading || Async components
 - Global components
