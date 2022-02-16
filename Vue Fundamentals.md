@@ -126,6 +126,15 @@ also you have to make a clone or a copy from the original array so we use spread
 v-model with almost all input types
 ```
 
+##### Lifecycle hook  (12)
+```
+- Allow you to use some methods in different stages.
+```
+##### Watchers
+```
+
+```
+
 ### Top 10
 ```
 - Computed property (done)
