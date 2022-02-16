@@ -132,13 +132,18 @@ v-model with almost all input types
 ```
 ##### Watchers
 ```
+watch: {}   // for seeing changes
+Deep watchers   deep: true,  (nested changes)
 
+this.$watch()
+can stop the watch
+unwatch();
 ```
 
 ### Top 10
 ```
 - Computed property (done)
-- Event handling || listen for an event.
+- Event handling || listen for an event. (done)
 - Lazy loading || Async components
 - Global components
 - Single file component
